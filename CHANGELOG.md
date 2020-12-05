@@ -20,12 +20,14 @@ This document is formatted according to the principles of [Keep A CHANGELOG](htt
 
 ### Fixed
 
-## [v0.11.0-rc2]
+## [v0.11.0]
 
 ### Added
 - Created a simple example for a custom formatter ([330](https://github.com/cucumber/godog/pull/330) - [lonnblad])
 - --format junit:result.xml will now write to result.xml ([331](https://github.com/cucumber/godog/pull/331) - [lonnblad])
 - Added make commands to create artifacts and upload them to a github release ([333](https://github.com/cucumber/godog/pull/333) - [lonnblad])
+- Created release notes and changelog for v0.11.0 ([355](https://github.com/cucumber/godog/pull/355) - [lonnblad])
+- Created v0.11.0-rc2 ([362](https://github.com/cucumber/godog/pull/362) - [lonnblad])
 
 ### Changed
 - Added Cobra for the Command Line Interface ([321](https://github.com/cucumber/godog/pull/321) - [lonnblad])
@@ -34,6 +36,7 @@ This document is formatted according to the principles of [Keep A CHANGELOG](htt
 - Added an internal pkg for the builder ([327](https://github.com/cucumber/godog/pull/327) - [lonnblad])
 - Moved the parser code to a new internal pkg ([329](https://github.com/cucumber/godog/pull/329) - [lonnblad])
 - Moved StepDefinition to the formatters pkg ([332](https://github.com/cucumber/godog/pull/332) - [lonnblad])
+- Removed go1.12 and added go1.15 to CI config ([356](https://github.com/cucumber/godog/pull/356) - [lonnblad])
 
 ### Deprecated
 
@@ -47,6 +50,7 @@ This document is formatted according to the principles of [Keep A CHANGELOG](htt
 - Added a comment regarding running the examples within the $GOPATH ([352](https://github.com/cucumber/godog/pull/352) - [lonnblad])
 - doc(FAQ/TestMain): `testing.M.Run()` is optional ([353](https://github.com/cucumber/godog/pull/353) - [hansbogert])
 - Made a fix for the unstable Randomize Run tests ([354](https://github.com/cucumber/godog/pull/354) - [lonnblad])
+- Fixed an issue when go test is parsing command-line flags ([359](https://github.com/cucumber/godog/pull/359) - [lonnblad])
 
 ## [v0.10.0]
 
@@ -154,8 +158,8 @@ This document is formatted according to the principles of [Keep A CHANGELOG](htt
 ### Fixed
 
 <!-- Releases -->
-[Unreleased]:  https://github.com/cucumber/godog/compare/v0.11.0-rc2...master
-[v0.11.0-rc2]: https://github.com/cucumber/godog/compare/v0.10.0...v0.11.0-rc2
+[Unreleased]:  https://github.com/cucumber/godog/compare/v0.11.0...master
+[v0.11.0]: https://github.com/cucumber/godog/compare/v0.10.0...v0.11.0
 [v0.10.0]:     https://github.com/cucumber/godog/compare/v0.9.0...v0.10.0
 [0.9.0]:       https://github.com/cucumber/godog/compare/v0.8.1...v0.9.0
 [0.8.1]:       https://github.com/cucumber/godog/compare/v0.8.0...v0.8.1
