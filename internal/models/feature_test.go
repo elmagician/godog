@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/cucumber/godog/internal/testutils"
+	"github.com/tankyouoss/godog/internal/testutils"
 	"github.com/stretchr/testify/assert"
 )
 

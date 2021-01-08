@@ -9,7 +9,7 @@ import (
 var astContextSrc = `package main
 
 import (
-	"github.com/cucumber/godog"
+	"github.com/tankyouoss/godog"
 )
 
 func MyContext(s *godog.Suite) {
@@ -18,7 +18,7 @@ func MyContext(s *godog.Suite) {
 var astTwoContextSrc = `package lib
 
 import (
-	"github.com/cucumber/godog"
+	"github.com/tankyouoss/godog"
 )
 
 func ApiContext(s *godog.Suite) {

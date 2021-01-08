@@ -7,7 +7,7 @@ import (
 	"github.com/cucumber/messages-go/v10"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/cucumber/godog/internal/models"
+	"github.com/tankyouoss/godog/internal/models"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"reflect"
 
-	"github.com/cucumber/godog"
+	"github.com/tankyouoss/godog"
 )
 
 type apiFeature struct {

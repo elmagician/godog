@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cucumber/godog"
+	"github.com/tankyouoss/godog"
 )
 
 func testOutsideGopathAndHavingOnlyFeature(t *testing.T) {
@@ -21,7 +21,7 @@ func testOutsideGopathAndHavingOnlyFeature(t *testing.T) {
 	builderTC.goModCmds = make([]*exec.Cmd, 2)
 	builderTC.goModCmds[0] = exec.Command("go", "mod", "init", "godogs")
 
-	godogDependency := fmt.Sprintf("github.com/cucumber/godog@%s", godog.Version)
+	godogDependency := fmt.Sprintf("github.com/tankyouoss/godog@%s", godog.Version)
 	builderTC.goModCmds[1] = exec.Command("go", "mod", "edit", "-require", godogDependency)
 
 	builderTC.run(t)

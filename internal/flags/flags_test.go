@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cucumber/godog/internal/flags"
+	"github.com/tankyouoss/godog/internal/flags"
 )
 
 func Test_BindFlagsShouldRespectFlagDefaults(t *testing.T) {

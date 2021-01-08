@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/tankyouoss/godog/colors"
+	"github.com/tankyouoss/godog/internal/models"
+	"github.com/tankyouoss/godog/internal/utils"
 	"github.com/cucumber/messages-go/v10"
 )
 

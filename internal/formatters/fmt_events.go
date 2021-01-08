@@ -7,8 +7,8 @@ import (
 
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/cucumber/godog/formatters"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/tankyouoss/godog/formatters"
+	"github.com/tankyouoss/godog/internal/utils"
 )
 
 const nanoSec = 1000000

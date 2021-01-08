@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cucumber/godog/internal/parser"
+	"github.com/tankyouoss/godog/internal/parser"
 )
 
 func Test_FeatureFilePathParser(t *testing.T) {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cucumber/godog/cmd/godog/internal"
+	"github.com/tankyouoss/godog/cmd/godog/internal"
 )
 
 func main() {

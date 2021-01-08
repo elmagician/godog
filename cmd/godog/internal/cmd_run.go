@@ -9,8 +9,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cucumber/godog/internal/builder"
-	"github.com/cucumber/godog/internal/flags"
+	"github.com/tankyouoss/godog/internal/builder"
+	"github.com/tankyouoss/godog/internal/flags"
 )
 
 var opts flags.Options

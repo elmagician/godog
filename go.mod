@@ -1,4 +1,4 @@
-module github.com/cucumber/godog
+module github.com/tankyouoss/godog
 
 go 1.15
 

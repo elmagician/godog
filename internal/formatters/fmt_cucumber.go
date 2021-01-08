@@ -20,8 +20,8 @@ import (
 
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/cucumber/godog/formatters"
-	"github.com/cucumber/godog/internal/models"
+	"github.com/tankyouoss/godog/formatters"
+	"github.com/tankyouoss/godog/internal/models"
 )
 
 func init() {

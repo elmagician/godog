@@ -23,13 +23,13 @@ var (
 	compiler        = filepath.Join(tooldir, "compile")
 	linker          = filepath.Join(tooldir, "link")
 	gopaths         = filepath.SplitList(build.Default.GOPATH)
-	godogImportPath = "github.com/cucumber/godog"
+	godogImportPath = "github.com/tankyouoss/godog"
 
 	// godep
 	runnerTemplate = template.Must(template.New("testmain").Parse(`package main
 
 import (
-	"github.com/cucumber/godog"
+	"github.com/tankyouoss/godog"
 	{{if or .TestSuiteContexts .ScenarioContexts}}_test "{{.ImportPath}}"{{end}}
 	{{if or .XTestSuiteContexts .XScenarioContexts}}_xtest "{{.ImportPath}}_test"{{end}}
 	{{if or .XTestSuiteContexts .XScenarioContexts}}"testing/internal/testdeps"{{end}}
@@ -70,7 +70,7 @@ func main() {
 	// temp file for import
 	tempFileTemplate = template.Must(template.New("temp").Parse(`package {{.Name}}
 
-import "github.com/cucumber/godog"
+import "github.com/tankyouoss/godog"
 
 var _ = godog.Version
 `))

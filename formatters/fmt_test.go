@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cucumber/godog"
+	"github.com/tankyouoss/godog"
 )
 
 func Test_FindFmt(t *testing.T) {

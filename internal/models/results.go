@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/tankyouoss/godog/colors"
+	"github.com/tankyouoss/godog/internal/utils"
 )
 
 // TestRunStarted ...

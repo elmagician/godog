@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cucumber/godog"
-	"github.com/cucumber/godog/colors"
+	"github.com/tankyouoss/godog"
+	"github.com/tankyouoss/godog/colors"
 	flag "github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 )

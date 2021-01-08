@@ -14,12 +14,12 @@ import (
 
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/cucumber/godog/colors"
-	"github.com/cucumber/godog/formatters"
-	"github.com/cucumber/godog/internal/models"
-	"github.com/cucumber/godog/internal/parser"
-	"github.com/cucumber/godog/internal/storage"
-	"github.com/cucumber/godog/internal/utils"
+	"github.com/tankyouoss/godog/colors"
+	"github.com/tankyouoss/godog/formatters"
+	"github.com/tankyouoss/godog/internal/models"
+	"github.com/tankyouoss/godog/internal/parser"
+	"github.com/tankyouoss/godog/internal/storage"
+	"github.com/tankyouoss/godog/internal/utils"
 )
 
 const (
