@@ -3,7 +3,7 @@ package customformatter
 import (
 	"io"
 
-	"github.com/tankyouoss/godog"
+	"github.com/elmagician/godog"
 	"github.com/cucumber/messages-go/v10"
 )
 

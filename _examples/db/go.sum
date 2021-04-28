@@ -20,8 +20,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.0/go.mod h1:maD7wRr/U5Z6m/iR4s+kqSMx2CaBsr
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/cucumber/gherkin-go/v11 v11.0.0 h1:cwVwN1Qn2VRSfHZNLEh5x00tPBmZcjATBWDpxsR5Xug=
 github.com/cucumber/gherkin-go/v11 v11.0.0/go.mod h1:CX33k2XU2qog4e+TFjOValoq6mIUq0DmVccZs238R9w=
-github.com/tankyouoss/godog v0.11.0-rc1 h1:teGazCI1DPdTC78bEm6YriIs0WlLrASJ4T52kDn6MWM=
-github.com/tankyouoss/godog v0.11.0-rc1/go.mod h1:Y8jpFSv39cZ6NkQWrA8mI7Wuw3n1QMnW5r9TK40mBnI=
+github.com/elmagician/godog v0.11.0-rc1 h1:teGazCI1DPdTC78bEm6YriIs0WlLrASJ4T52kDn6MWM=
+github.com/elmagician/godog v0.11.0-rc1/go.mod h1:Y8jpFSv39cZ6NkQWrA8mI7Wuw3n1QMnW5r9TK40mBnI=
 github.com/cucumber/messages-go/v10 v10.0.1/go.mod h1:kA5T38CBlBbYLU12TIrJ4fk4wSkVVOgyh7Enyy8WnSg=
 github.com/cucumber/messages-go/v10 v10.0.3 h1:m/9SD/K/A15WP7i1aemIv7cwvUw+viS51Ui5HBw1cdE=
 github.com/cucumber/messages-go/v10 v10.0.3/go.mod h1:9jMZ2Y8ZxjLY6TG2+x344nt5rXstVVDYSdS5ySfI1WY=

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tankyouoss/godog/colors"
-	"github.com/tankyouoss/godog/internal/models"
+	"github.com/elmagician/godog/colors"
+	"github.com/elmagician/godog/internal/models"
 )
 
 type stepResultStatusTestCase struct {

@@ -3,7 +3,7 @@ package godog
 import (
 	"testing"
 
-	"github.com/tankyouoss/godog/internal/flags"
+	"github.com/elmagician/godog/internal/flags"
 	"github.com/stretchr/testify/assert"
 )
 

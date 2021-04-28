@@ -1,5 +1,5 @@
 [![CircleCI](https://circleci.com/gh/cucumber/godog/tree/master.svg?style=svg)](https://circleci.com/gh/cucumber/godog/tree/master)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/tankyouoss/godog)](https://pkg.go.dev/github.com/tankyouoss/godog)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/elmagician/godog)](https://pkg.go.dev/github.com/elmagician/godog)
 [![codecov](https://codecov.io/gh/cucumber/godog/branch/master/graph/badge.svg)](https://codecov.io/gh/cucumber/godog)
 
 # Godog
@@ -8,7 +8,7 @@
 
 **The API is likely to change a few times before we reach 1.0.0**
 
-Please read the full README, you may find it very useful. And do not forget to peek into the [Release Notes](https://github.com/tankyouoss/godog/blob/master/release-notes) and the [CHANGELOG](https://github.com/tankyouoss/godog/blob/master/CHANGELOG.md) from time to time.
+Please read the full README, you may find it very useful. And do not forget to peek into the [Release Notes](https://github.com/elmagician/godog/blob/master/release-notes) and the [CHANGELOG](https://github.com/elmagician/godog/blob/master/CHANGELOG.md) from time to time.
 
 Package godog is the official Cucumber BDD framework for Golang, it merges specification and test documentation into one cohesive whole, using Gherkin formatted scenarios in the format of Given, When, Then.
 
@@ -43,13 +43,13 @@ When automated testing is this much fun, teams can easily protect themselves fro
 
 ## Install
 ```
-go get github.com/tankyouoss/godog/cmd/godog@v0.10.0
+go get github.com/elmagician/godog/cmd/godog@v0.10.0
 ```
 Adding `@v0.10.0` will install v0.10.0 specifically instead of master.
 
 Running `within the $GOPATH`, you would also need to set `GO111MODULE=on`, like this:
 ```
-GO111MODULE=on go get github.com/tankyouoss/godog/cmd/godog@v0.10.0
+GO111MODULE=on go get github.com/elmagician/godog/cmd/godog@v0.10.0
 ```
 
 ## Contributions
@@ -72,7 +72,7 @@ Join [here](https://cucumberbdd-slack-invite.herokuapp.com/).
 
 You can find a few examples [here](/_examples).
 
-**Note** that if you want to execute any of the examples and have the Git repository checked out in the `$GOPATH`, you need to use: `GO111MODULE=off`. [Issue](https://github.com/tankyouoss/godog/issues/344) for reference.
+**Note** that if you want to execute any of the examples and have the Git repository checked out in the `$GOPATH`, you need to use: `GO111MODULE=off`. [Issue](https://github.com/elmagician/godog/issues/344) for reference.
 
 ### Godogs
 
@@ -88,7 +88,7 @@ Initiate the go module - `go mod init godogs`
 
 #### Step 2 - Install godog
 
-Install the godog binary - `go get github.com/tankyouoss/godog/cmd/godog`
+Install the godog binary - `go get github.com/elmagician/godog/cmd/godog`
 
 #### Step 3 - Create gherkin feature
 
@@ -155,7 +155,7 @@ Create and copy the step definitions into a new file - `vim godogs_test.go`
 ``` go
 package main
 
-import "github.com/tankyouoss/godog"
+import "github.com/elmagician/godog"
 
 func iEat(arg1 int) error {
         return godog.ErrPending
@@ -244,7 +244,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tankyouoss/godog"
+	"github.com/elmagician/godog"
 )
 
 func thereAreGodogs(available int) error {
@@ -316,7 +316,7 @@ Everyone interacting in this codebase and issue tracker is expected to follow th
 - [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter),
   may be used in order to generate **html** reports together with **cucumber** output formatter. See the [following docker image](https://github.com/myie/cucumber-html-reporter) for usage details.
 - [how to use godog by semaphoreci](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
-- see [examples](https://github.com/tankyouoss/godog/tree/master/_examples)
+- see [examples](https://github.com/elmagician/godog/tree/master/_examples)
 - see extension [AssistDog](https://github.com/hellomd/assistdog),
   which may have useful **gherkin.DataTable** transformations or comparison methods for assertions.
 
@@ -348,8 +348,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tankyouoss/godog"
-	"github.com/tankyouoss/godog/colors"
+	"github.com/elmagician/godog"
+	"github.com/elmagician/godog/colors"
 	flag "github.com/spf13/pflag" // godog v0.11.0-rc2 (latest)
 )
 
@@ -521,7 +521,7 @@ A simple example can be [found here](/_examples/custom-formatter).
 ## License
 **Godog** and **Gherkin** are licensed under the [MIT][license] and developed as a part of the [cucumber project][cucumber]
 
-[godoc]: https://pkg.go.dev/github.com/tankyouoss/godog "Documentation on godog"
+[godoc]: https://pkg.go.dev/github.com/elmagician/godog "Documentation on godog"
 [golang]: https://golang.org/  "GO programming language"
 [behat]: http://docs.behat.org/ "Behavior driven development framework for PHP"
 [cucumber]: https://cucumber.io/ "Behavior driven development framework"

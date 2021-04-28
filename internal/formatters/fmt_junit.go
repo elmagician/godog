@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/tankyouoss/godog/formatters"
-	"github.com/tankyouoss/godog/internal/utils"
+	"github.com/elmagician/godog/formatters"
+	"github.com/elmagician/godog/internal/utils"
 )
 
 func init() {

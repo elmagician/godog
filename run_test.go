@@ -17,10 +17,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tankyouoss/godog/colors"
-	"github.com/tankyouoss/godog/internal/formatters"
-	"github.com/tankyouoss/godog/internal/models"
-	"github.com/tankyouoss/godog/internal/storage"
+	"github.com/elmagician/godog/colors"
+	"github.com/elmagician/godog/internal/formatters"
+	"github.com/elmagician/godog/internal/models"
+	"github.com/elmagician/godog/internal/storage"
 )
 
 func okStep() error {

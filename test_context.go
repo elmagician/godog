@@ -7,9 +7,9 @@ import (
 
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/tankyouoss/godog/formatters"
-	"github.com/tankyouoss/godog/internal/builder"
-	"github.com/tankyouoss/godog/internal/models"
+	"github.com/elmagician/godog/formatters"
+	"github.com/elmagician/godog/internal/builder"
+	"github.com/elmagician/godog/internal/models"
 )
 
 // matchable errors

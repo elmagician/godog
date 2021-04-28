@@ -33,7 +33,7 @@ commands:
   go_test:
     description: "Run go test"
     steps:
-      - run: sed -i 's#github.com/tankyouoss/godog/internal/formatters_test#/internal/formatters_test#g' internal/formatters/formatter-tests/*/*
+      - run: sed -i 's#github.com/elmagician/godog/internal/formatters_test#/internal/formatters_test#g' internal/formatters/formatter-tests/*/*
       - run: go test -v -race -coverprofile=coverage.txt -covermode=atomic ./...
       - run: cd _examples && go test -v -race ./... && cd ..
   godog:
@@ -59,17 +59,17 @@ commands:
 
 jobs:
   go1_13:
-    working_directory: /go/src/github.com/tankyouoss/godog
+    working_directory: /go/src/github.com/elmagician/godog
     executor: exec_go_1_13
     steps:
       - all
   go1_14:
-    working_directory: /go/src/github.com/tankyouoss/godog
+    working_directory: /go/src/github.com/elmagician/godog
     executor: exec_go_1_14
     steps:
       - all
   go1_15:
-    working_directory: /go/src/github.com/tankyouoss/godog
+    working_directory: /go/src/github.com/elmagician/godog
     executor: exec_go_1_15
     steps:
       - all

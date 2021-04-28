@@ -4,7 +4,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/tankyouoss/godog/internal/flags"
+	"github.com/elmagician/godog/internal/flags"
 )
 
 var version bool

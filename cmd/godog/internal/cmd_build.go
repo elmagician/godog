@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tankyouoss/godog/internal/builder"
+	"github.com/elmagician/godog/internal/builder"
 )
 
 var buildOutput string

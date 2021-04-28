@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tankyouoss/godog"
+	"github.com/elmagician/godog"
 )
 
 func getVersion(w http.ResponseWriter, r *http.Request) {

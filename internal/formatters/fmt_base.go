@@ -13,11 +13,11 @@ import (
 
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/tankyouoss/godog/colors"
-	"github.com/tankyouoss/godog/formatters"
-	"github.com/tankyouoss/godog/internal/models"
-	"github.com/tankyouoss/godog/internal/storage"
-	"github.com/tankyouoss/godog/internal/utils"
+	"github.com/elmagician/godog/colors"
+	"github.com/elmagician/godog/formatters"
+	"github.com/elmagician/godog/internal/models"
+	"github.com/elmagician/godog/internal/storage"
+	"github.com/elmagician/godog/internal/utils"
 )
 
 // BaseFormatterFunc implements the FormatterFunc for the base formatter

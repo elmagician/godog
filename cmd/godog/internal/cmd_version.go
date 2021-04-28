@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tankyouoss/godog"
+	"github.com/elmagician/godog"
 )
 
 // CreateVersionCmd creates the version subcommand.

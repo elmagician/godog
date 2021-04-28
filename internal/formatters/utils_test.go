@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tankyouoss/godog/internal/utils"
+	"github.com/elmagician/godog/internal/utils"
 )
 
 // this zeroes the time throughout whole test suite

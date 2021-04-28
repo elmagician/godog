@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
-	"github.com/tankyouoss/godog/colors"
-	"github.com/tankyouoss/godog/internal/utils"
+	"github.com/elmagician/godog/colors"
+	"github.com/elmagician/godog/internal/utils"
 )
 
 // TestRunStarted ...

@@ -1,4 +1,4 @@
-module github.com/tankyouoss/godog
+module github.com/elmagician/godog
 
 go 1.15
 

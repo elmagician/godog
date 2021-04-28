@@ -9,7 +9,7 @@ import (
 
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/tankyouoss/godog/formatters"
+	"github.com/elmagician/godog/formatters"
 )
 
 func init() {

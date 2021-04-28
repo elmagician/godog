@@ -13,8 +13,8 @@ import (
 	"github.com/cucumber/gherkin-go/v11"
 	"github.com/cucumber/messages-go/v10"
 
-	"github.com/tankyouoss/godog/internal/models"
-	"github.com/tankyouoss/godog/internal/tags"
+	"github.com/elmagician/godog/internal/models"
+	"github.com/elmagician/godog/internal/tags"
 )
 
 var pathLineRe = regexp.MustCompile(`:([\d]+)$`)

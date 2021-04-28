@@ -1,6 +1,6 @@
 package godog
 
-import "github.com/tankyouoss/godog/internal/flags"
+import "github.com/elmagician/godog/internal/flags"
 
 // Options are suite run options
 // flags are mapped to these options.

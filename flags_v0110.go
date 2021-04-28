@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/tankyouoss/godog/internal/flags"
+	"github.com/elmagician/godog/internal/flags"
 )
 
 // Choose randomly assigns a convenient pseudo-random seed value.

@@ -6,11 +6,11 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tankyouoss/godog/colors"
-	"github.com/tankyouoss/godog/formatters"
-	internal_fmt "github.com/tankyouoss/godog/internal/formatters"
-	"github.com/tankyouoss/godog/internal/models"
-	"github.com/tankyouoss/godog/internal/storage"
+	"github.com/elmagician/godog/colors"
+	"github.com/elmagician/godog/formatters"
+	internal_fmt "github.com/elmagician/godog/internal/formatters"
+	"github.com/elmagician/godog/internal/models"
+	"github.com/elmagician/godog/internal/storage"
 )
 
 // FindFmt searches available formatters registered

@@ -6,8 +6,8 @@ test:
 	@echo "running all tests"
 	@go install ./...
 	@go fmt ./...
-	@golint github.com/tankyouoss/godog
-	@golint github.com/tankyouoss/godog/cmd/godog
+	@golint github.com/elmagician/godog
+	@golint github.com/elmagician/godog/cmd/godog
 	go vet ./...
 	go test -race
 	godog -f progress -c 4
